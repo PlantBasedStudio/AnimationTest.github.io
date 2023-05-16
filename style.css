@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    text-align: center;
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+body{
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+
+}
+img{
+    
+
+    transition: all 200ms ease-in-out;
+}
+
+.hover__scale:hover{
+    transform: scale(1.15);
+}
+
+.hover__opacity:hover{
+   opacity: 0.5;
+}
+
+.hover__extend-width:hover{
+    transform: scaleX(2);
+}
+
+.hover__rotate:hover{
+    transform: rotate(-1turn);
+}
+
+.hover__translate:hover{
+    transform: translate(50%, 20%);
+}
+
+.hover__skew:hover{
+    transform: skew(45deg, 20deg);
+}
+
+.hover__perspective:hover{
+    transform: perspective(120px) rotateX(45deg);
+}
+
+.hover__rotateY:hover{
+    transform: perspective(320px) rotateY(180deg);
+}
