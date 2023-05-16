@@ -85,6 +85,20 @@ img{
     transform: rotateX(180deg);
 }
 
+.hover__darkencolor::after{
+    content: "";
+    opacity: 0.1;
+    
+}
+.hover__darkencolor:hover{
+    opacity: 0.5;
+    filter: brightness(50%);
+    
+}
+
+
+
+
 @media (max-width: 1024px){
     .grid{
         display: inline-grid;
